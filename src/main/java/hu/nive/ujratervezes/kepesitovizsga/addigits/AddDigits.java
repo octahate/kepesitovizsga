@@ -8,6 +8,7 @@ public class AddDigits {
         if (input == null || input.isBlank()){
             return -1;
         }
+
         int counter = 0;
         for (int i = 0; i < input.length(); i++) {
             String currentNumberAsString = input.substring(i,i+1);
