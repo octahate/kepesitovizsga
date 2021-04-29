@@ -1,6 +1,6 @@
 package hu.nive.ujratervezes.kepesitovizsga.army;
 
-public class HeavyCavalry extends Archer{
+public class HeavyCavalry extends MilitaryUnit {
 
     private int attackCounter;
 

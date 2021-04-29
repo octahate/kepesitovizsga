@@ -7,7 +7,6 @@ public class Army {
 
     private List<MilitaryUnit> myArmy = new ArrayList<>();
 
-
     public void addUnit(MilitaryUnit militaryUnit){
         myArmy.add(militaryUnit);
     }
@@ -32,5 +31,4 @@ public class Army {
     public int getArmySize(){
         return myArmy.size();
     }
-
 }

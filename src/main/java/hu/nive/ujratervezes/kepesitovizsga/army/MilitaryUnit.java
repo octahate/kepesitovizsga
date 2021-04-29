@@ -5,7 +5,6 @@ public abstract class MilitaryUnit {
     int damage;
     boolean hasArmour;
 
-
     public int getHitPoints() {
         return health;
     }

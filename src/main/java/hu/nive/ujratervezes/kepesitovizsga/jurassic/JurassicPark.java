@@ -13,10 +13,7 @@ public class JurassicPark {
 
     private MariaDbDataSource dataSource;
 
-    public JurassicPark(MariaDbDataSource dataSource) throws SQLException {
-        dataSource.setUrl("jdbc:mariadb://localhost:3306/employees?useUnicode=true");
-        dataSource.setUser("employees");
-        dataSource.setPassword("employees");
+    public JurassicPark(MariaDbDataSource dataSource){
         this.dataSource = dataSource;
     }
 
@@ -33,7 +30,7 @@ public class JurassicPark {
             }
             return names;
         } catch (SQLException se) {
-            throw new IllegalStateException("Cannot select employees", se);
+            throw new IllegalStateException("A dínók fajtájának kiválasztása nem sikerült!", se);
         }
     }
 }
