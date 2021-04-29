@@ -1,3 +1,4 @@
+
 package hu.nive.ujratervezes.kepesitovizsga.army;
 
 import org.junit.jupiter.api.Test;
