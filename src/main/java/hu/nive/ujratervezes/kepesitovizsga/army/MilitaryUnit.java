@@ -1,9 +1,10 @@
 package hu.nive.ujratervezes.kepesitovizsga.army;
 
 public abstract class MilitaryUnit {
-    int health;
-    int damage;
-    boolean hasArmour;
+
+    protected int health;
+    protected int damage;
+    protected boolean hasArmour;
 
     public int getHitPoints() {
         return health;

@@ -13,7 +13,7 @@ public class JurassicPark {
 
     private MariaDbDataSource dataSource;
 
-    public JurassicPark(MariaDbDataSource dataSource){
+    public JurassicPark(MariaDbDataSource dataSource) {
         this.dataSource = dataSource;
     }
 

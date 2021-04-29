@@ -12,8 +12,8 @@ public class Swordsman extends MilitaryUnit {
     }
 
     @Override
-    public void sufferDamage(int damage){
-        if (hasShield){
+    public void sufferDamage(int damage) {
+        if (hasShield) {
             hasShield = false;
         } else super.sufferDamage(damage);
     }
